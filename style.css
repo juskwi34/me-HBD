@@ -205,8 +205,12 @@ a:hover {
     margin-right: auto;
   }
 
-  .hbd  {
-  font-size: 30px;
+  .hbd h1 {
+  font-size: 40px;
+  }
+
+  .hbd h2 {
+    font-size: 30px;
   }
 
   .surprised {
