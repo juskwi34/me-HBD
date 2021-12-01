@@ -1,0 +1,332 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: #FFEEFF;
+  z-index: 10;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+}
+
+.head-list li {
+  float: left;
+  list-style: none;
+}
+
+.head-list a {
+  text-decoration: none;
+  color:white;
+  background-color: pink;
+  opacity: 0.6;
+  padding: 15px 60px;
+  font-weight: 900;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 70px;
+  transition: 0.5s;
+}
+
+.hbd {
+  font-family:"Monotype Corsiva";
+  font-size: 60px;
+  background-color:pink;
+  text-align: center;
+  color:#F8F8FF;
+  padding-top:60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.mio {
+  padding:30px 30px 0 30px;
+  text-align: center;
+  background-color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mio h3 {
+  font-size: 30px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  color:black;
+  opacity: 0.8;
+}
+
+.mio a {
+  text-decoration: none;
+  background-color:pink;
+  color:white;
+  padding: 20px 45px;
+  margin:20px;
+  border-radius: 40px;
+  transition: 0.5s;
+  display: inline-block;
+  margin-bottom:30px;
+  font-size:20px;
+}
+
+.birthday img {
+  width: 100%;
+  opacity:1;
+  vertical-align: bottom;
+}
+
+.item-list {
+  justify-content: center;
+  display:center;
+  margin:50px 50px;
+  text-align: center;
+}
+
+.surprised {
+  float:center;
+  border-top: 3px solid pink;
+  height: 100vh;
+}
+
+.surprised img{
+  height:200px;
+  width:200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.surprised h3 {
+  font-size: 50px;
+}
+
+.surprised p {
+  font-size: 25px;
+  padding: 10px 0 30px 0;
+}
+
+
+.surprised a {
+  text-decoration: none;
+  background-color:pink;
+  color:white;
+  padding: 20px 45px;
+  margin:20px 0 30px 0;
+  border-radius: 40px;
+  transition: 0.5s;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.sub {
+  border-bottom: 3px solid pink;
+  padding-bottom: 30px;
+}
+
+a:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.more {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.more img {
+  width: 640px;
+  height: 480px;
+  overflow:hidden;
+  position: relative;
+  margin-bottom:100px;
+  margin-top: 80px;
+  padding-left: 50px;
+}
+
+.more .right {
+  padding: 150px 0 0 30px;
+}
+
+.more .title {
+  margin: 0;
+  padding: 0;
+  font-weight:900;
+  font-size: 30px;
+  border-bottom: 2px solid pink;
+}
+
+.more .text {
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 17px;
+  line-height:3;
+  font-weight:500;
+}
+
+.more a {
+  padding: 20px 45px;
+  background-color:pink;
+  color:white;
+  text-decoration:none;
+  border-radius:40px;
+  margin:30px 30px;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.foot {
+  height: 60px;
+  background-color:#FFEEFF;
+}
+
+.foot p {
+  font-size:20px;
+  font-weight: bold;
+  color:dimgray;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media  screen and (max-width : 1100px) {
+
+  .head-list a {
+    margin-left: 40px;
+  }
+
+  .mio {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hbd  {
+  font-size: 80px;
+  }
+
+  .surprised {
+  height: 100%;
+  }
+
+  .more img {
+  width: 360px ;
+  height: 270px;
+  margin-top:60px;
+  }
+
+  .more .title {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  }
+
+  .more .text {
+  font-size: 14px;
+  line-height:1;
+  margin: 10px 10px 0 0;
+  padding: 0;
+  }
+
+}
+
+.slide-pic{
+  max-width: 100%;
+  height: 500px;
+  margin: auto;
+}
+/*画像配置*/
+.slideshow{
+  max-width: 100%;
+  height: 100%;
+  background-image: url(https://dotup.org/uploda/dotup.org2660574.jpg_o3ZFzs4EzPN2iiiVFTqz/dotup.org2660574.jpg);/*JSで切り替える画像*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 100%;/*左 中央のよせ*/
+}
+/*文字*/
+.disc{
+  margin: auto;
+  text-align: center;
+  font-size: 3em;
+  color: #ffffff;
+  font-weight: 800;
+  padding-top:19%;
+}
+/*>*/
+.next{
+  float: right;
+  top: 0px;
+  right: 50px;
+}
+/*<*/
+.back{
+  float: left;
+  bottom: 0px;
+  left: 30px;
+}
+/*矢印のデザイン*/
+.arrow{
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 16px;
+  color: #000;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 15px;
+}
+.arrow::before,
+.arrow::after{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  content: "";
+  vertical-align: middle;
+}
+
+.next::before{
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  border-top: 5px solid rgb(255, 255, 255);
+  border-right: 5px solid rgb(255, 255, 255);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.back::before{
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid rgb(255, 255, 255);
+  border-left: 5px solid rgb(255, 255, 255);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* CSSアニメーションの指定 */
+.slideshow{
+  transition: background-image 1.5s ease-in;
+}
+
+
+@media screen and (max-width:768px) { 
+.slide-pic{
+  height: 250px;
+}
+  .disc{
+      padding-top:5%;
+  }
+  /*>*/
+  .next{
+      top: 30px;
+  }
+  /*<*/
+  .back{
+      top: 30px;
+  }
+}
